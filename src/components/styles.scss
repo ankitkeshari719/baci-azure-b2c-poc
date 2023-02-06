@@ -1,0 +1,57 @@
+.containedButton {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 6px 6px !important;
+  gap: 8px !important;
+  background: #159add !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 24px !important;
+  text-transform: uppercase !important;
+}
+.saveButtonText {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 0.4px !important;
+  text-transform: uppercase !important;
+  color: #fafafa !important;
+  flex: none !important;
+  order: 0 !important;
+  flex-grow: 0 !important;
+}
+.outlinedButton {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 6px 16px !important;
+  gap: 8px !important;
+  margin-top: 40px !important;
+  background: #ffffff !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 24px !important;
+  text-transform: uppercase !important;
+}
+.customizeButtonText {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 0.4px !important;
+  text-transform: uppercase !important;
+  color: #159add !important;
+  flex: none !important;
+  order: 0 !important;
+  flex-grow: 0 !important;
+}

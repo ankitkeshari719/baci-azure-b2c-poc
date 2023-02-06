@@ -1,0 +1,143 @@
+@import './style.module.scss';
+.primaryButton {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 10px 20px !important;
+  border-radius: 24px !important;
+}
+.primaryButtonText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: $PrimaryMain;
+}
+.secondaryButton {
+  @extend .primaryButton;
+  background-color: $PrimaryMain !important;
+}
+.secondaryButtonText {
+  @extend .primaryButtonText;
+  color: #fafafa;
+}
+.alignCenter {
+  text-align: center;
+}
+.detailCard {
+  width: 180px;
+  height: 180px;
+}
+.infoLink {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-decoration-line: underline;
+  text-align: center;
+  color: #4285f4;
+}
+.pulseLineBlue {
+  width: 31px;
+  height: 0px;
+  margin-top: 19px;
+  border: 1px solid $PrimaryMain;
+  background-color: $PrimaryMain;
+}
+.pulseLineGrey {
+  width: 31px;
+  height: 0px;
+  margin-top: 19px;
+  border: 1px solid $grey30;
+  background-color: $grey30;
+}
+.identityWillbeConfidentialText {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  text-align: center !important;
+  letter-spacing: 0.4px !important;
+  color: #ee7538 !important;
+}
+.popupNextBtn {
+  width: 36px !important;
+  height: 20px !important;
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.4px !important;
+  text-decoration-line: underline !important;
+  color: #4285f4 !important;
+  float: right !important;
+}
+.popupPrevBtn {
+  width: 70px !important;
+  height: 20px !important;
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.4px !important;
+  text-decoration-line: underline !important;
+  color: #4285f4 !important;
+}
+.submitfeedback {
+  background: #159add !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 24px !important;
+}
+@page {
+  margin-top: 50px;
+}
+@media print {
+  body,
+  html {
+    height: 100%;
+    width: 96%;
+    overflow: visible !important;
+    margin-left: 2%;
+  }
+
+  div {
+    page-break-inside: avoid;
+  }
+  .page-break {
+    clear: both;
+    //display: inline;
+    margin-top: 30px;
+  }
+}
+*::-webkit-scrollbar {
+  width: 9.19px;
+  height: 94.9px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: #e3e3e3;
+}
+.css-8ny1cp-MuiButtonBase-root-MuiMenuItem-root.Mui-disabled {
+  opacity: 1 !important;
+  background: white !important;
+}
+//   /* Handle on hover */
+//   *::-webkit-scrollbar-thumb:hover {
+//     background: #555;
+//   }

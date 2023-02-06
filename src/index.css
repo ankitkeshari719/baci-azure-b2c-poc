@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: auto !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.fade-enter {
+  transition: opacity 300ms;
+  opacity: 0;
+}
+
+.fade-enter-done {
+  transition: opacity 300ms;
+  opacity: 0;
+}
+
+.fade-exit {
+  transition: opacity 300ms;
+  opacity: 1;
+}
+
+.fade-enter-active {
+  transition: opacity 300ms;
+  opacity: 1;
+}
+
+.fade-exit-active {
+  transition: opacity 300ms;
+  opacity: 0;
+}
+
+:root {
+  --app-height: 100%;
+}
+
+html,
+body {
+  overscroll-behavior-y: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  height: var(--app-height);
+}
+
+#editLogo:hover {
+  stroke: purple;
+}
+
+.css-dsqczc-MuiButtonBase-root-MuiMenuItem-root {
+  width: 220px !important;
+  justify-content: space-between !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  display: flex !important;
+}
+
+/*# sourceMappingURL=index.css.map */
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey !important;
+  border-radius: 10px !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray !important;
+  border-radius: 10px !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darkgray !important;
+}
+
+
+.selectedAvatar {
+  background-color: brown;
+}
+
+
+#multiple-checkbox .css-duy8o2-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 0px
+}
+
+.css-oqt7a2-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
+  max-height:500px!important;
+}
+.css-8ny1cp-MuiButtonBase-root-MuiMenuItem-root.Mui-disabled{
+  opacity: 1!important;
+  background: white!important;
+}

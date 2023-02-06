@@ -1,0 +1,417 @@
+// Main Container
+.mainContainer {
+  width: 100% !important;
+  height: 100vh !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+// App Bar
+.logoContainer {
+  height: 4rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  background: #ffffff !important;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25) !important;
+}
+// Retro Main Container align
+.retroContainer {
+  height: calc(100vh - 64px) !important;
+  padding: 56px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  overflow-y: auto !important;
+}
+.createRetroText {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 36px !important;
+  line-height: 48px !important;
+  letter-spacing: 0.5px !important;
+  color: #159add !important;
+}
+// BACI Details CSS
+.tabSummary {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 24px !important;
+  line-height: 32px !important;
+  letter-spacing: 0.5px !important;
+  color: #2c69a1 !important;
+}
+.timeFrameSummary {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.6px;
+  color: #000000 !important;
+  display: flex !important;
+  align-items: center !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+// Retro Template CSS
+.card {
+  max-width: 400px !important;
+  height: 320px !important;
+  background: #ffffff;
+  border-radius: 2px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.imageContainer {
+  position: relative;
+}
+.imageMain {
+  display: block;
+}
+.imageChild_1 {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+}
+.imageChild_2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.templateName {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 24px !important;
+  letter-spacing: 0.5px !important;
+  color: #2c69a1 !important;
+}
+.templateDescription {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.6px !important;
+  color: #4e4e4e !important;
+}
+.templateLink {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.4px !important;
+  text-decoration-line: underline !important;
+  color: #4285f4 !important;
+}
+.customButton {
+  min-width: 75px !important;
+  height: 20px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 12px 12px !important;
+  gap: 8px !important;
+  background: #ffffff !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 24px !important;
+}
+.customText {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 0.4px !important;
+  text-transform: uppercase !important;
+  color: #159add !important;
+  flex: none !important;
+  order: 0 !important;
+  flex-grow: 0 !important;
+}
+
+// User Details CSS
+.chooseAvatarText {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  display: flex !important;
+  align-items: center !important;
+  letter-spacing: 0.4px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+.selectAvatarButtonText {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 0.4px !important;
+  text-transform: uppercase !important;
+  color: #159add !important;
+}
+.avatarDialog {
+  width: 90% !important;
+  padding: 16px !important;
+  background: #ffffff !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  overflow-y: scroll !important;
+}
+.avatarSvgXs {
+  width: 50px !important;
+  height: 50px !important;
+  margin-bottom: 15px !important;
+  border-radius: 50% !important;
+}
+.selectAvatarText {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  display: flex !important;
+  align-items: center !important;
+  letter-spacing: 0.4px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+// Share Participants
+.participantContainer {
+  height: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  background: #fafafa;
+}
+.firstDesignSprint {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #4e4e4e;
+}
+.joinUrl {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-decoration-line: underline;
+  color: #159add;
+}
+.withCode {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #2c69a1;
+}
+.codeId {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  color: #2c69a1;
+}
+.productUrl {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.4px;
+  text-decoration-line: underline;
+  color: #676767;
+}
+.inviteButton {
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 6px 16px !important;
+  gap: 8px !important;
+  width: 199px !important;
+  height: 36px !important;
+  border: 1px solid #159add !important;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25)) !important;
+  border-radius: 24px !important;
+  background-color: #ffffff !important;
+}
+.inviteText {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 0.4px !important;
+  text-transform: uppercase !important;
+  color: #159add !important;
+  flex: none !important;
+  order: 0 !important;
+  flex-grow: 0 !important;
+}
+
+// Learn More CSS
+.learnMoreAppBar {
+  height: 4rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  background: #ffffff !important;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25) !important;
+}
+.customizeButton {
+  height: 36px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 6px 16px !important;
+  gap: 8px !important;
+  border: 1px solid #159add !important;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25)) !important;
+  border-radius: 24px !important;
+}
+.customizeButtonText {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 0.4px !important;
+  text-transform: uppercase !important;
+  color: #159add !important;
+  flex: none !important;
+  order: 0 !important;
+  flex-grow: 0 !important;
+}
+.saveButton {
+  height: 36px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 6px 16px !important;
+  gap: 8px !important;
+  background: #159add !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 24px !important;
+}
+.saveButtonText {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 0.4px !important;
+  text-transform: uppercase !important;
+  color: #fafafa !important;
+  flex: none !important;
+  order: 0 !important;
+  flex-grow: 0 !important;
+}
+.selectedTemplate {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #2c69a1;
+}
+.text_one {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.text_two {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #2c69a1;
+}
+.aboutTemplate {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  color: #ee7538;
+}
+.templateDescription {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  color: #4e4e4e;
+}
+
+// Time Input Dialog
+.time_text_one {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #ee7538;
+}
+.time_text_two {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #ee7538;
+
+  opacity: 0.8;
+}

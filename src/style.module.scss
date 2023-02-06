@@ -1,0 +1,29 @@
+//colors
+$secondaryMain : #EE7538;
+$info : #4285F4;
+$primaryDark : #2C69A1;
+$grey : #F0F0F0;
+$PrimaryMain : #159ADD;
+$m-80 :80px;
+$height16: 16.5px;
+$grey30:#E3E3E3;
+$grey60:#676767;
+$font16: 16px;
+$m-209 :209px;
+$mr-46 :46px;
+$white : #FAFAFA;
+:export {
+    secondaryMain: $secondaryMain;
+    info: $info;
+    primaryDark: $primaryDark;
+    grey: $grey;
+    m_80:$m-80;
+    m_209:$m-209;
+    m_46:$mr-46;
+    PrimaryMain:$PrimaryMain;
+    height_16: $height16;
+    grey30: $grey30;
+    font16: $font16;
+    grey60: $grey60;
+    white: $white;
+  }

@@ -1,0 +1,5 @@
+declare module 'shortid'
+declare module 'react-copy-to-clipboard'
+declare module 'stopword'
+declare module 'color'
+declare module 'json-stringify-date'

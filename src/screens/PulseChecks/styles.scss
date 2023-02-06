@@ -1,0 +1,16 @@
+// Main Container
+.mainContainer {
+    width: 100% !important;
+    height: 100vh !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  // Retro Main Container align
+  .retroContainer {
+    height: calc(100vh - 64px) !important;
+    padding: 56px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    overflow-y: auto !important;
+  }
